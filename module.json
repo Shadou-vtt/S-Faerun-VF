@@ -1,0 +1,33 @@
+{
+  "id": "s-faerun-vf",
+  "title": "S-Faerûn VF",
+  "description": "Module maison de Shadou pour L'épopée de Faerûn : états et règles vers le SRD 2024 français, vitrine automatique des options de personnage du monde (classes, sous-classes, espèces, historiques, dons) dans le compendium « Options de personnage (VF) », et masquage des sources en double dans le navigateur de compendiums.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Shadou"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "url": "https://github.com/Shadou-vtt/S-Faerun-VF",
+  "manifest": "https://raw.githubusercontent.com/Shadou-vtt/S-Faerun-VF/main/module.json",
+  "download": "https://github.com/Shadou-vtt/S-Faerun-VF/archive/refs/tags/v1.0.0.zip",
+  "readme": "https://github.com/Shadou-vtt/S-Faerun-VF#readme"
+}
